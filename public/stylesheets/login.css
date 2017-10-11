@@ -1,0 +1,94 @@
+.title {
+    color: #00afff;
+    font-size: 80px;
+    margin-bottom: 0.5em;
+}
+
+/* login */
+.login {
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4),
+                -1px -1px 3px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.login .container {
+    width: 30%;
+}
+
+.login input {
+    background-color: #e6e6e6;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    padding-left: 2.5em;
+    border-radius: 25px;
+    position: relative;
+    right: 100%;
+    width: 300%;
+}
+
+.login input:focus {
+    background-color: #cdcdcd;
+    transition: 0.5s;
+}
+
+.login span {
+    position: relative;
+    top: 1.8em;
+    right: 130%;
+    z-index: 1;
+}
+
+.login .btn-login{
+    border: none;
+    background-color: #00cb1a;
+    font-size: 20px;
+    color: white;
+    width: 300%;
+    position: relative;
+    right: 100%;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    outline: none;
+}
+
+.login .btn-login:hover {
+    background-color: #00b21a;
+    transition: 0.5s;
+}
+
+.login .btn-register {
+    background-color: #00afff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 0.5em;
+    position: relative;
+    width: 300%;
+    right: 100%;
+}
+
+.login .btn-register:hover {
+    background-color: #0096e6;
+    transition: 0.5s;
+}
+
+/* error */
+
+#log-in div.error {
+    text-align: left;
+    position: relative;
+    right: 90%;
+    color: red;
+    width: 250%;
+}
+
+#log-in input.error {
+    border: 2px dashed red;
+    background-color: rgba(255, 0, 0, 0.2)
+}
