@@ -83,7 +83,8 @@
 #log-in div.error {
     text-align: left;
     position: relative;
-    right: 90%;
+    left: 30%;
+    bottom: 1em;
     color: red;
     width: 250%;
 }
